@@ -1,7 +1,7 @@
 [![Licence MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/blob/main/LICENSE)
 [![Language C/C++](https://img.shields.io/badge/language-C%2FC%2B%2B-informational)](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen)
 [![Release tag](https://img.shields.io/github/v/release/Erriez/ErriezGithubActionsPlatformIODoxygen?display_name=tag)](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/releases)
-[![Open issue](https://shields.io/github/issues/Erriez/ErriezGithubActionsPlatformIODoxygen)](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/issues)
+[![Open issue](https://shields.io/github/issues-raw/Erriez/ErriezGithubActionsPlatformIODoxygen)](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/issues)
 [![PlatformIO CI](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/actions/workflows/actions.yml/badge.svg)](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/actions/workflows/actions.yml)
 
 # Erriez Arduino Github Actions Template
