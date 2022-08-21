@@ -1,8 +1,7 @@
 name: Issue report
 description: Report issues
 labels: ["Awaiting triage"]
-assignees:
-  - erriez
+assignees: self
 
 body:
   - type: markdown
@@ -107,7 +106,7 @@ body:
       label: Export restrictions.
       description: The owner of this repository Erriez included an explict export restriction to Russia.
       options:
-        - label: I confirm I am not a Russian citizen and I accept [End User Agreement](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/blob/main/END_USER_AGREEMENT.md).
+        - label: I accept [End User Agreement](https://github.com/Erriez/ErriezGithubActionsPlatformIODoxygen/blob/main/END_USER_AGREEMENT.md).
           required: true
 
   - type: markdown
