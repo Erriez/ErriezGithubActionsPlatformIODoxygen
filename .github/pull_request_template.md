@@ -13,18 +13,17 @@ Thanks for taking the time to create a pull request!
 -----------
 
 ## Description and Impact
-Describe your proposed Pull Request and it's impact.
-eg: This pull request fixes an issue with... and affects boards...
+Describe your proposed Pull Request and it's impact:
+This pull request fixes an issue with... and affects boards...
 
 ## Link to other issues
-Provide relevant links to related issues, PRs etc. 
-eg: "Issue #13"
+Provide relevant links to related issues, PRs etc:
+Issue #123
 
 ## Tested version
 Which version was used to test this pull request? 
-eg:
-- Branch `main`
-- Hash: `123456`
-- Tag: `v1.0.0"`
+- Branch: master
+- Hash: 123456
+- Tag: v1.0.0
 
 Thanks for your contribution!
