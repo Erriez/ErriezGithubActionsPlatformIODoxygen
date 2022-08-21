@@ -1,0 +1,8 @@
+# Exclude the following files to make this a C/C++ project
+*.sh linguist-vendored=true
+*.bat linguist-vendored=true
+
+# Ignore the following files when creating a release
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.*.sh export-ignore
