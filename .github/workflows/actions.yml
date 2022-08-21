@@ -19,12 +19,20 @@ on:
   # Run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  # To use repository name: ${{ github.event.repository.name }}
+  PDF_NAME: "ErriezTemplateLibrary"
+  # Choose branch name "master" or "main"
+  BRANCH_NAME: "master"
+
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        examples: [examples/ErriezTest/ErriezTest.ino]
+        examples: [
+          examples/ErriezTest/ErriezTest.ino,
+        ]
 
     steps:
       - uses: actions/checkout@v3
@@ -76,7 +84,7 @@ jobs:
         run: |
           sudo apt-get install texlive-latex-recommended texlive-pictures texlive-latex-extra -y
           make -C docs/latex
-          cp docs/latex/refman.pdf docs/html/ErriezTemplateLibrary.pdf
+          cp docs/latex/refman.pdf docs/html/$PDF_NAME.pdf
         shell: bash
 
       - name: Deploy to GitHub branch gh-pages
