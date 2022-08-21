@@ -16,11 +16,11 @@ This is a template repository for Erriez Arduino libraries to test Github Action
 * `.auto-build.sh`:
     - Bash script to build Arduino libary with PlatformIO and Doxygen HTML/PDF on Linux.
 * `.github/ISSUE_TEMPLATE/*.yaml`: 
-    - Github issue templates to enforce user to enter relevant information.
+    - [Github issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms) to enforce user to enter relevant information.
 * `.github/PULL_REQUESTS_TEMPLATE.md`: 
-    - Github pull request template. Note: `yaml` format is not supported yet.
+    - [Github pull request template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository). Note: `yaml` format is not supported yet.
 * `.github/worksflows/actions.yml`:
-    - Github Actions to build Arduino library with PlatformIO and deploy Doxygen HTML to `gh-pages`.
+    - [Github Actions](https://docs.github.com/en/actions) to build Arduino library with PlatformIO and deploy Doxygen HTML to `gh-pages`.
 
 ## Github Project Configuration
 
