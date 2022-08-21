@@ -22,8 +22,6 @@ on:
 env:
   # To use repository name: ${{ github.event.repository.name }}
   PDF_NAME: "ErriezTemplateLibrary"
-  # Choose branch name "master" or "main"
-  BRANCH_NAME: "master"
 
 jobs:
   build:
@@ -91,6 +89,5 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: docs/html
